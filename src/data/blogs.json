@@ -1,0 +1,16 @@
+{
+    "entries": [
+        {
+            "img": "{{webRoot}}/assets/images/blog-one.jpg",
+            "title": "Curabitur ultricies eros eu ultricies placerat"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/blog-one.jpg",
+            "title": "Vestibulum quis est non neque mattis lobortis"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/blog-one.jpg",
+            "title": "Fusce et commodo velit, non vehicula leo?"
+        }
+    ]
+}

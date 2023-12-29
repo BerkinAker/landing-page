@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+    <div class="dg-block">
+        <!-- Topnavbar -->
+        {{> topnavbar/topnavbar
+        configClassList=config.classes.topnavbar
+        classList="" }}
+        <!-- /Topnavbar-->
+    </div>
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="" }}
+    <!-- /Navbar-->
+
+    <!-- Main -->
+    <main class="{{ config.classes.content }}">
+        <!-- Page Content -->
+
+        <!-- Hero-->
+        {{> widgets/hero }}
+        <!-- /Hero-->
+
+        <!-- About-->
+        {{> widgets/about }}
+        <!-- /About-->
+
+        <!-- Highlights-->
+        {{> widgets/highlights }}
+        <!-- /Highlights-->
+
+        <!-- Reviews-->
+        {{> widgets/reviews }}
+        <!-- /Reviews-->
+
+        <!-- Posts-->
+        {{> widgets/blog }}
+        <!-- /Posts-->
+
+        <!--  Features -->
+        {{> widgets/features }}
+        <!--  Features -->
+
+        <!-- FAQ -->
+        {{> widgets/faq-p }}
+        <!-- /FAQ -->
+
+        <!-- /Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

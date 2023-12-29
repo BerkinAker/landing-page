@@ -1,0 +1,52 @@
+{
+    "entries": [
+        {
+            "quote": "Nulla facilisi. Pellentesque venenatis tempus lorem eget pretium.",
+            "img": "{{webRoot}}/assets/images/logos/logo-15.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small-2.jpeg",
+            "name": "Vivamus egestas"
+        },
+        {
+            "quote": "Aliquam maximus cursus nibh. Praesent sed urna vehicula. Tempus.",
+            "img": "{{webRoot}}/assets/images/logos/logo-16.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small-3.jpeg",
+            "name": "Pellentesque habitant"
+        },
+        {
+            "quote": "Auris finibus et felis eget tempus. Ut dui felis, imperdiet quis luctus eget!",
+            "img": "{{webRoot}}/assets/images/logos/logo-17.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small-4.jpeg",
+            "name": "Nullam a justo"
+        },
+        {
+            "quote": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
+            "img": "{{webRoot}}/assets/images/logos/logo-18.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small-5.jpeg",
+            "name": "Curabitur mi"
+        },
+        {
+            "quote": " Cras vel sapien ultricies nisi vulputate aliquet.",
+            "img": "{{webRoot}}/assets/images/logos/logo-19.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small-6.jpeg",
+            "name": "Proin congue"
+        },
+        {
+            "quote": "Nullam ullamcorper leo ac tempor venenatis. Fusce metus ligula, hendrerit sed placerat at, ultrices sed orci.",
+            "img": "{{webRoot}}/assets/images/logos/logo-20.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small-7.jpeg",
+            "name": "Pellentesque habitant"
+        },
+        {
+            "quote": "Praesent sed urna vehicula, commodo turpis id, facilisis dolor.",
+            "img": "{{webRoot}}/assets/images/logos/logo-21.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small-2.jpeg",
+            "name": "Donec urna lorem"
+        },
+        {
+            "quote": "Aenean mattis erat eu nisi congue ornare!",
+            "img": "{{webRoot}}/assets/images/logos/logo-22.svg",
+            "avatar": "{{webRoot}}/assets/images/profile-small.jpeg",
+            "name": "Lorem ipsum"
+        }
+    ]
+}

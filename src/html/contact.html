@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <div class="dg-block">
+        <!-- Topnavbar -->
+        {{> topnavbar/topnavbar
+        configClassList=config.classes.topnavbar
+        classList="" }}
+        <!-- /Topnavbar-->
+    </div>
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="" }}
+    <!-- / Navbar-->
+
+    <!-- Main -->
+    <main class="mt-0 {{ config.classes.content }}">
+
+        <!-- Title-->
+        <header class="pt-8">
+            <div class="container">
+                <div class="text-center col-12 col-sm-9 col-lg-8 col-xl-7 mx-auto">
+                    <h1 class="display-6 fw-bold mb-3">Lorem, ipsum. Online İletişim Formu</h1>
+                    <p class="text-muted display fs-7 lead mb-0">Bizimle 7/24 İletişime Geçebilirsiniz</p>
+                </div>
+            </div>
+        </header>
+        <!-- /Title-->
+
+        <div class="container">
+            <div class="row gx-10 my-8">
+                <!-- Form-->
+                <div class="col-12 col-lg-8 mx-auto">
+                    <form>
+                        <div class="row g-5">
+                            <div class="col-12 col-md-6 mt-3">
+                                <input class="form-control" type="text" name="name" placeholder="İsim">
+
+                            </div>
+                            <div class="col-12 col-md-6 mt-3">
+                                <input class="form-control" type="email" name="email" placeholder="E-Mail">
+                            </div>
+                            <div class="col-12 col-md-6 mt-3">
+                                <input class="form-control" type="text" name="telephone"
+                                    placeholder="Telefon">
+                            </div>
+                            <div class="col-12 col-md-6 mt-3">
+                                <input class="form-control" type="text" name="company" placeholder="Mesaj Konusu">
+                            </div>
+                            <div class="col-12 mt-2">
+                                <textarea class="form-control" name="about" cols="30" rows="4"
+                                    placeholder="Mesajınız"></textarea>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center mt-4">
+                                <button class="btn btn-primary" type="submit">Mesajı Gönder</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Form-->
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8 mt-5 mt-lg-0 mx-auto d-flex justify-content-center">
+                        <div>
+                            <p class="small fw-bolder tracking-wider text-primary text-center">İletişim Adreslerimiz ile
+                                Bize Ulaşabilirsiniz
+                            </p>
+                            <ul
+                                class="list-unstyled mb-5 d-flex flex-column flex-md-row justify-content-end align-items-center gx-4">
+                                <li class="d-flex align-items-center me-4 transition-opacity opacity-75-hover"><i
+                                        class="ri-phone-fill me-2 ri-md"></i> <a class="fs-8 text-muted" href="#">+90
+                                        212 000 0000</a></li>
+                                <li class="d-flex align-items-center me-4 transition-opacity opacity-75-hover"><i
+                                        class="ri-mail-line me-2 ri-md"></i>
+                                    <a class="fs-8 text-muted" href="#">example@example.com</a>
+                                </li>
+                                <li class="d-flex align-items-center transition-opacity opacity-75-hover"><i
+                                        class="ri-whatsapp-line me-2 ri-md"></i> <a class="fs-8 text-muted" href="#">+90
+                                        500 000 0000</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row w-full">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10071.32814209507!2d36.197884701251766!3d41.36922276703541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40887e9167dd7ecd%3A0xd4c331fd1dbf1413!2sOndokuz%20May%C4%B1s%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1703707751789!5m2!1str!2str"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <!-- /Content -->
+    </main>
+    <!-- /Main -->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

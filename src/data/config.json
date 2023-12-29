@@ -1,0 +1,18 @@
+{
+    "defaultPageTitle": "Landing Page",
+    "templateName": "Bootstrap 5 HTML Starter Template",
+    "classes": {
+        "body": "",
+        "navbar": "",
+        "content": "",
+        "footer": ""
+    },
+    "partials": {
+        "head": "head/head",
+        "navbar": "navbar/navbar-primary",
+        "footer": "footer/footer"
+    },
+    "defaultImgAlt": "HTML Bootstrap Starter Template",
+    "helpDocsURL": "",
+    "demoURL": ""
+}

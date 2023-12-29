@@ -1,0 +1,64 @@
+.carousel-heading {
+  animation: fadeInDown 1s;
+}
+
+.carousel-body {
+  animation: fadeInUp 2.5s;
+}
+
+.carousel-button {
+  animation: fadeInLeft 3s;
+}
+
+.btn-whatsapp-pulse {
+  background: #25d366;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 35px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	z-index: 50;
+}
+
+.btn-phone-shake {
+	background: $primary;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 35px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: shake;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	z-index: 50;
+}
+
+.arrow-up {
+	display: none;
+  cursor: pointer;
+  position: fixed; 
+  bottom: 120px;
+  right: 40px;
+  z-index: 50;
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <div class="dg-block">
+        <!-- Topnavbar -->
+        {{> topnavbar/topnavbar
+        configClassList=config.classes.topnavbar
+        classList="" }}
+        <!-- /Topnavbar-->
+    </div>
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="" }}
+    <!-- / Navbar-->
+
+    <!-- Main -->
+    <main class="{{ config.classes.content }}">
+        <div class="py-2 py-lg-10">
+            <!-- Content -->
+            <div class="text-center py-lg-4">
+                <!-- Title -->
+                <h1 class="display-3 mb-4">Bizi <span class="fw-bold">Yakından</span> Tanıyın</h1>
+                <!-- /Title -->
+
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-6 col-xl-5 mx-auto position-relative" data-aos="fade-up"
+                        data-aos-duration="3000">
+                        <picture class="position-relative z-index-20">
+                            <img class="img-fluid rounded-5" src="{{webRoot}}/assets/images/img-doctor2.jpg"
+                                alt="{{ config.defaultImgAlt }}">
+                        </picture>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-5 position-relative" data-aos="fade-down">
+                        <div class="position-relative pe-lg-4 z-index-20">
+                            <p class="small fw-bolder text-uppercase text-center mb-0">Lorem, ipsum.
+                            </p>
+                            <h4 class="fs-1 fw-bold mb-4 mt-3">Vestibulum quis est non neque mattis lobortis.</h4>
+                            <p class="text-muted fs-7 lead text-start">Sed nec nisl sed nibh laoreet accumsan. Etiam
+                                massa justo,
+                                accumsan pretium libero. In eu accumsan nisl, quis efficitur magna. Quisque nibh elit,
+                                imperdiet nec dolor vitae, lacinia interdum nunc. Curabitur iaculis, justo eget
+                                scelerisque viverra, diam tortor fringilla leo, non dictum lorem dolor at diam. Ut in
+                                nisl consequat justo commodo ultricies nec ac purus. Fusce vitae erat nisi. Donec
+                                condimentum nibh in felis auctor pulvinar. Nunc porttitor nisi accumsan, hendrerit augue
+                                sed, pretium eros. Etiam vel ex nec tortor gravida auctor. </p>
+                            <a href="#" class="btn btn-link text-decoration-none ms-md-2 opacity-75-hover border border-text-muted"
+                                role="button">Hakkımızda</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Content -->
+        </div>
+    </main>
+    <!-- /Main -->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

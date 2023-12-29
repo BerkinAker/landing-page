@@ -1,0 +1,22 @@
+<div class="bg-text-muted py-8">
+    <div class="container">
+        <div class="row g-5">
+            {{#each blogs.entries}}
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="d-flex border-0 bg-white rounded card shadow-lg position-relative h-100  overflow-hidden">
+                    <picture>
+                        <img class="img-fluid" src="{{ img }}" alt="{{ config.defaultImgAlt }}">
+                    </picture>
+                    <div class="card-body p-4 p-lg-5">
+                        <p class="card-title fw-medium mb-4">{{ title }}</p>
+                        <a class="link-cover fw-medium fs-7 text-decoration-none opacity-75-hover" role="button" href="#">Devamını oku</a>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+            <div class="mt-8">
+                <a class="btn btn-white d-table fw-medium w-100 w-md-auto mx-auto opacity-75-hover" role="button" href="#">Daha Fazla İçerik</a>
+            </div>
+        </div>
+    </div>
+</div>

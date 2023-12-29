@@ -1,0 +1,35 @@
+{
+    "entries": [
+        {
+            "svg": "<i class='ri-nurse-line ri-3x'></i>",
+            "title": "Integer nec",
+            "description": "Praesent sed neque."
+        },
+        {
+            "svg": "<i class='ri-hospital-line ri-3x'></i>",
+            "title": "Curabitur eu maximus",
+            "description": "Massa et posuere fringilla."
+        },
+        {
+            "svg": "<i class='ri-pencil-line ri-3x'></i>",
+            "title": "Nulla tellus orci",
+            "description": "Maecenas hendrerit."
+        },
+        {
+            "svg": "<i class='ri-hotel-bed-line ri-3x'></i>",
+            "title": "Aliquam ultricies",
+            "description": "Ultrices consequat nibh."
+        },
+        {
+            "svg": "<i class='ri-question-answer-line ri-3x'></i>",
+            "title": "Curabitur rutrum",
+            "description": "Nulla tellus orci."
+        },
+        {
+            "svg": "<i class='ri-survey-line ri-3x'></i>",
+            "title": "Quisque vitae",
+            "description": "Blandit ut arcu ac."
+        }
+    ]
+}
+
